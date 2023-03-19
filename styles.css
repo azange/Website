@@ -44,15 +44,16 @@ body
 }
 
 
-
 .rounded-square {
-  width: 450px;
-  height: 200px;
+  width: 100%;
+  max-width: 500px;
+  height: 250px;
   border-radius: 20px;
   background-color: #00457E;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .rounded-square h2 {
@@ -61,4 +62,16 @@ body
   padding: 10px;
 }
 
+/* Media Query for small screens */
 
+@media (max-width: 480px) {
+  .rounded-square {
+    height: auto;
+    width: 250px;
+  }
+  
+  .rounded-square h2 {
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+}
