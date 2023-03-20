@@ -3456,5 +3456,22 @@ a:hover .lnk-icon-right {
 
 
 
+.img-platforms {
+  width: 100%;
+  height: auto;
+  max-width: 150px; /* Die maximale Breite, die das Bild haben soll */
+  max-height: 150px; /* Die maximale Höhe, die das Bild haben soll */
+  display: inline-block;
+  vertical-align: middle; /* Dadurch werden die Bilder vertikal zentriert */
+  margin: 10px; /* Hier können Sie den Abstand zwischen den Bildern anpassen */
+
+}
+.col-md-6 {
+  float: none;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
